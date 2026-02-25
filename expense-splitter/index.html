@@ -6,31 +6,38 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>💰 Expense Splitter</h1>
+<div class="container">
+    <h1>💰 Expense Splitter</h1>
 
-        <h2>Add User</h2>
-        <input type="text" id="username" placeholder="Enter user name">
-        <button onclick="addUser()">Add User</button>
+    <!-- Add User -->
+    <h2>Add User</h2>
+    <input type="text" id="username" placeholder="Enter user name">
+    <button onclick="addUser()">Add User</button>
 
-        <h2>Add Expense</h2>
-        <input type="text" id="description" placeholder="Description">
-        <input type="number" id="amount" placeholder="Amount">
+    <h3>Users</h3>
+    <ul id="userList"></ul>
 
-        <label>Paid By:</label>
-        <select id="paidBy"></select>
+    <!-- Add Expense -->
+    <h2>Add Expense</h2>
+    <input type="text" id="description" placeholder="Description">
+    <input type="number" id="amount" placeholder="Amount">
 
-        <label>Split Between:</label>
-        <div id="participants"></div>
+    <label>Paid By:</label>
+    <select id="paidBy"></select>
 
-        <button onclick="addExpense()">Add Expense</button>
+    <label>Participants:</label>
+    <div id="participants"></div>
 
-        <h2>Users</h2>
-        <ul id="userList"></ul>
+    <button onclick="addExpense()">Add Expense</button>
 
-        <h2>Balances</h2>
-        <ul id="balances"></ul>
-    </div>
+    <!-- View Expenses -->
+    <h2>All Expenses</h2>
+    <ul id="expenseList"></ul>
+
+    <!-- Balances -->
+    <h2>Balances</h2>
+    <ul id="balances"></ul>
+</div>
 
 <script src="script.js"></script>
 </body>
