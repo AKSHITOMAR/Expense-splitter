@@ -5,6 +5,12 @@ A simple and efficient web-based Expense Splitter built for the Hackathon Assess
 This application allows users to create accounts, add expenses, split them equally among selected participants, and calculate exact settlements (who owes whom).
 
 ---
+## 🌐 Live Demo
+
+🔗 **Live Application:**  
+https://expense-splitter-five-mocha.vercel.app/
+
+---
 
 ## 🚀 Features
 
@@ -49,14 +55,12 @@ Displays balances in clear format:
 ---
 
 ## 📂 Project Structure
-expense-splitter/
-│
+ ``` 
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
-
+ ``` 
 ---
 
 ## ▶️ How to Run the Project
@@ -109,6 +113,7 @@ This project was developed as part of the Hackathon Assessment for selection int
 The focus was on logic correctness, clean implementation, and completion of all required features.
 
 ---
+⭐ Thank you for reviewing our project!
 
 ⭐ Thank you for reviewing our project!
 
