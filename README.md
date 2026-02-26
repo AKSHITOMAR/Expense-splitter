@@ -1,10 +1,11 @@
 # 💰 Expense Splitter Web Application
 
-A simple and efficient web-based Expense Splitter built for the Hackathon Assessment.
+A simple and efficient web-based Expense Splitter built as part of a Hackathon Assessment.
 
 This application allows users to create accounts, add expenses, split them equally among selected participants, and calculate exact settlements (who owes whom).
 
 ---
+
 ## 🌐 Live Demo
 
 🔗 **Live Application:**  
@@ -63,6 +64,8 @@ Displays balances in clear format:
  ``` 
 ---
 
+---
+
 ## ▶️ How to Run the Project
 
 1. Clone or download this repository.
@@ -89,34 +92,30 @@ This project fulfills all mandatory requirements:
 
 ---
 
-## 🎥 Demo
+## 🎥 Demo Video
 
-(Add your Google Drive video demonstration link here)
+https://drive.google.com/drive/folders/1ih5TX-iantp5c9DHIVWbUQH7dS_joR2z?usp=sharing
 
 ---
 
-## 👥 Team Details
+## 👨‍💻 Author
 
-Team Name: (Add here)
-
-Members:
-- Name 1 (Roll No.)
-- Name 2 (Roll No.)
-- Name 3 (Roll No.)
-- Name 4 (Roll No.)
+This project was designed, developed, and deployed as part of a Hackathon Assessment.
 
 ---
 
 ## 🎯 Objective
 
-This project was developed as part of the Hackathon Assessment for selection into the System Design Batch.  
-The focus was on logic correctness, clean implementation, and completion of all required features.
+The goal of this project was to build a simple yet logically correct expense splitting system focusing on:
+
+- Accurate equal splitting
+- Correct balance settlement
+- Clean implementation
+- Completion of all mandatory requirements
 
 ---
-⭐ Thank you for reviewing our project!
 
-⭐ Thank you for reviewing our project!
+⭐ Thank you for reviewing this project!
 
-git add README.md
-git commit -m "Improved professional README"
-git push
+
+
